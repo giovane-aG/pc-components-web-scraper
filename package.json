@@ -1,0 +1,22 @@
+{
+  "name": "webscrapper-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scraper": "node src/scraper.js",
+    "scraper2": "node src/puppeteer-scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^22.10.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "typescript": "^5.4.5"
+  }
+}
